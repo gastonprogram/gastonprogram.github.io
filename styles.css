@@ -1,0 +1,76 @@
+body{
+    background-color: #202124;
+    font-family: Arial;
+}
+
+.barra-navegacion{
+    text-align: right;
+    margin: 20px;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #303134;
+    color: #e8eaed;
+    border-radius: 4px;
+    
+}
+
+.busqueda{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.busqueda img{
+    width: 250px;
+}
+
+.query{
+    background-color: #202124;
+    width: 560px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #5f6368;
+    padding: 10px;
+    color: #e8eaed;
+    margin: 10px;
+    appearance: none;
+    outline: 0;
+}
+
+.query:-webkit-autofill,
+.query:-webkit-autofill:hover, 
+.query:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 60px #202124 inset !important;
+  -webkit-text-fill-color: #e8eaed !important;
+}
+
+
+.query:hover,
+.query:focus{
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+}
+
+#boton{
+    background-color: #303134;
+    width: 119px;
+    height: 34px;
+    padding: 10px;
+    margin: 10px;
+    color: #e8eaed;
+    text-align: center;
+    border-style: none;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#boton:hover{
+    border: 1px solid #5f6368;
+}
