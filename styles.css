@@ -71,6 +71,9 @@ body{
     cursor: pointer;
 }
 
+.busqueda label{
+    color: rgb(50, 125, 255);
+}
 #boton:hover{
     border: 1px solid #5f6368;
 }
