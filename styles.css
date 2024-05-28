@@ -39,6 +39,7 @@ body{
     margin: 10px;
     appearance: none;
     outline: 0;
+    font-size: 16px;
 }
 
 .query:-webkit-autofill,
