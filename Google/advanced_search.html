@@ -2,33 +2,46 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="advanced.css">
     </head>
     <body>
         <div class="barra-navegacion">
             <a href="index.html">Search</a>
         </div>
         <form class="busqueda" action="https://www.google.com/search">
-            <img src="Google.png" alt="Google">
+            <table>
+                <thead>
+                    <th>
+                        <img src="Google.png" alt="Google">
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="principal">Find pages that contain...</td>
+                    </tr>
+                    <tr>
+                        <td><label for="query"></label>Find pages with… “all these words:”</label></td>
+                        <td><input type="text" name="as_q" class="query"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="query"></label>Find pages with… “this exact word or phrase:”</label></td>
+                        <td><input type="text" name="as_epq" class="query"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="query"></label>Find pages with… “any of these words:”</label></td>
+                        <td><input type="text" name="as_oq" class="query"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="query"></label>Find pages with… “none of these words:”</label></td>
+                        <td><input type="text" name="as_eq" class="query"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input id="boton" type="submit" value="Google Search"></td>
+                    </tr>
 
-            <label for="query">
-            Find pages with… “all these words:”<input type="text" name="as_q" class="query">
-            </label>
-
-            <label for="query">
-            Find pages with… “this exact word or phrase:”<input type="text" name="as_epq" class="query">
-            </label>
-            
-
-            <label for="query">
-            Find pages with… “any of these words:”<input type="text" name="as_oq" class="query">
-            </label>
-            
-
-            <label for="query">
-            Find pages with… “none of these words:”<input type="text" name="as_eq" class="query">
-            </label>
-            <input id="boton" type="submit" value="Google Search">
+                </tbody>
+            </table>
         </form>
     </body>
 </html>
